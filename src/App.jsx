@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <p className='text-center text-amber-600'>Hi</p>
+      <p className='text-center bg-gray-500  px-8 py-11 p-6 text-amber-600'>Hi</p>
     </>
   )
 }
