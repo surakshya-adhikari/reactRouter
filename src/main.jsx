@@ -7,6 +7,7 @@ import Layout from './Layout.jsx'
 import Home from './Home/Home.jsx'
 import Contact from './Contact/Contact.jsx'
 import AboutUs from './AboutUs/AboutUs.jsx'
+import User from './User/User.jsx'
 
 
 const router = createBrowserRouter([
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
       },
       {
         path: "contact",
-        element:<Contact/>
+        element:<Contact/>,
+      },
+      {
+        path: "user/:userId",
+        element:<User/>,
       }
     ]
   }
